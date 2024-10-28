@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.poiret-one-regular {
+    font-family: "Poiret One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+  font-family: leitura;
+  src: url(PlaywriteDEGrund-VariableFont_wght.ttf);
+}
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    font-family: "Poiret One";
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: auto
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #1f1e1f;
+  }
+  
+  h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-family: "Arial", sans-serif;
+    color: #c0c0c0;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1f1e1f;
+  }
+  
+  a:hover {
+    color: #787aff;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #f5ee71;
+    padding: 14px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #000000;
+  }
+  
+  header nav a:hover {
+    color: #85877a;
+  }
+  
+  
+  /* Calculadora */
+
+  body {
+    font-family: 'Poiret One';
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    
+      position: relative;
+      padding-bottom: 100px; /* altura do rodapé */
+
+  }
+  .container {
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      width: 500px;
+      max-width: 500px;
+      height: 550px;
+      background-color: #fff98d;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 40px auto;
+    
+  }
+  .form {
+    padding: 8px;
+    display: flex;
+    margin-bottom: 8px;
+  }
+  .form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+  }
+  .form-content label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .form-content input{
+    width: 50px;
+    height: 30px;
+    padding: 8px;
+    border: 2px solid #303030;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  .form-content input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border-radius: 1px;
+  }
+  .form-content select {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .form-content button:hover {
+    background-color: #3e8e41;
+  }
+  .resultado-container {
+    width: 250px;
+    height: 90px;
+    background-color:none;
+    border: none;
+    border-radius: none;
+    margin: 90px;
+    padding: 20px;
+    margin-top: 10px;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color:#511010;
+  }
+  .button {
+    width: 180px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .button:hover {
+    background-color:#ffb545
+  }
+  
+  /* Artigos */
+  
+  .artigos {
+    padding: 40px;
+  }
+  
+  .artigos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .artigos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .artigos p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+     /* Footer Styles */
+  
+  footer {
+    background-color: #f5ee71;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-family: "leitura";
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 20}

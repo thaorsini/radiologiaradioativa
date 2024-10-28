@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.poiret-one-regular {
+    font-family: "Poiret One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+@font-face {
+  font-family: indie;
+  src: url(IndieFlower-Regular.ttf)
+}
+@font-face{
+  font-family: leitura;
+  src: url(PlaywriteDEGrund-VariableFont_wght.ttf)
+}
+*
+{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+  body {
+    font-family: "Poiret One", system-ui;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #333;
+    background-size: auto;
+    
+  }
+  @media screen and (max-width: 1080px) {
+    /*gerais*/
+    .cards{
+      flex-direction: column;
+      align-self: center;
+      margin-left: 20px;
+      width: 100%;
+    }
+
+
+    /* cabeçalho */
+    .menu{
+      display: none;
+    }
+        /*topo do site*/
+        .main{
+          flex-direction: column;
+          
+        }
+
+  }
+
+  .cards{
+    display: flex;
+    align-items: center;
+    flex: 1 1 350px;
+  }
+  .container1{
+    position: relative;
+    align-self: center;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 170px;
+  }
+  .container1:hover .flip1{
+    transform: rotateY(180deg);
+  }
+
+  .flip1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+  }
+
+  .frente1, .tras1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ffffff20;
+    backface-visibility: hidden;
+  }
+  .frente1{
+    background-image: url(vecteezy_skeleton-black-terrible-silhouette-human-body-skull-and_5362190.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .tras1{
+    background-color: #ffff9c;
+    transform: rotateY(180deg);
+    text-align: center;
+  }
+
+  .container2{
+    position: relative;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  .container2:hover .flip2{
+    transform: rotateY(180deg);
+  }
+
+  .flip2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+  }
+
+  .frente2, .tras2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ffffff20;
+    backface-visibility: hidden;
+  }
+  .frente2{
+    background-image: url(vecteezy_heart-organ-anatomy-human-illustration-icon-vector-element_11773511.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .tras2{
+    background-color: #ffff9c;
+    transform: rotateY(180deg);
+    text-align: center;
+  }
+
+  .container3{
+    position: relative;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .container3:hover .flip3{
+    transform: rotateY(180deg);
+  }
+
+  .flip3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+  }
+
+  .frente3, .tras3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ffffff20;
+    backface-visibility: hidden;
+  }
+  .frente3{
+    background-image: url(vecteezy_brain-vector-isolated-on-white-background_8547002.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .tras3{
+    background-color: #ffff9c;
+    transform: rotateY(180deg);
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "indie";
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffff6e;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: "Poiret One", system-ui;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0d0d0d;
+
+  }
+  h3 {
+    font-family: "Poiret One", system-ui;
+    font-size: 20px;
+    color: #1f2944;
+  }
+  h4 {
+    font-family: "indie";
+    font-size: 20px;
+    color: #2e1336;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e382e3;
+  }
+  
+  a:hover {
+    color: #787aff;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #f5ee71;
+    padding: 14px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #000000;
+  }
+  
+  header nav a:hover {
+    color: #85877a;
+  }
+  
+  
+  /* Calculadora */
+  
+  .calculadora {
+    padding: 50px;
+  }
+  
+  .calculadora h2 {
+    margin-bottom: 20px;
+  }
+  
+  .calculadora p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Artigos */
+  
+  .artigos {
+    padding: 40px;
+  }
+  
+  .artigos h2 {
+    margin-bottom: 20px;
+  }
+  
+  
+  .artigos p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .main {
+    position: relative;
+    padding-bottom: 1000px; /* altura do rodapé */
+  }
+ /*main*/ 
+
+     /* Footer Styles */
+  
+ 
