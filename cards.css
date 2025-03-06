@@ -43,6 +43,34 @@
     .menu{
       display: none;
     }
+       /* Header Styles */
+  
+  header {
+    background-color: #f5ee71;
+    padding: 14px;
+    text-align: center;
+    min-width: 320px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #000000;
+  }
+  
+  header nav a:hover {
+    color: #85877a;
+  }
         /*topo do site*/
         .main{
           flex-direction: column;
