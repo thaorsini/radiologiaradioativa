@@ -144,6 +144,7 @@
  /*main*/ 
 .historia-container {
   min-width: 320px;
+  max-width: 600px;
       /*width removida*/
       height: 350px;
       background-color: none;
