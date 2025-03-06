@@ -1,4 +1,3 @@
-/* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 .poiret-one-regular {
     font-family: "Poiret One", system-ui;
@@ -29,7 +28,8 @@
     line-height: 1.5;
     background-color: #333;
     background-repeat: no-repeat;
-    background-size: auto
+    background-size: auto;
+    min-width: 320px;
     
   }
   
@@ -47,6 +47,7 @@
     font-size: 20px;
     font-weight: 600;
     color: #d3d2d2;
+    min-width: 320px;
 
   }
   h3 {
@@ -75,6 +76,7 @@
     background-color: #f5ee71;
     padding: 14px;
     text-align: center;
+    min-width: 320px;
   }
   
   header nav ul {
@@ -135,12 +137,14 @@
     margin-bottom: 40px;
   }
   .main {
+    min-width: 320px;
     position: relative;
     padding-bottom: 1000px; /* altura do rodapé */
   }
  /*main*/ 
 .historia-container {
-      width: 680px;
+  min-width: 320px;
+      /*width removida*/
       height: 350px;
       background-color: none;
       padding: 20px;
@@ -164,6 +168,9 @@
   font-family: "indie";
   font-size: 30px;
   font-weight: bold;
+  display: flex;
+  min-width: 320px;
+  display: flexbox;
 }
 .botao:hover {
   background-color: #a9eaff;
@@ -180,6 +187,8 @@
   font-family: "indie";
   font-size: 30px;
   font-weight: bold;
+  min-width: 320px;
+  display: flex;
 }
 .botao2:hover {
   background-color: #a9eaff;
