@@ -145,8 +145,9 @@
   padding-bottom: 100px; /* altura do rodapé */
 }
 .historia-container {
-      width: 1000px;
-      height: 2200px;
+  min-width: 320px;
+      max-width: 1000px;
+      max-height: 2200px;
       background-color: #fff98d;
       border-radius: 10px;
       padding: 20px;
