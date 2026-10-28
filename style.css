@@ -196,6 +196,24 @@
   background-color: #a9eaff;
   opacity: 0.8;
 }
+.botao2 {
+  align-self: left;
+  margin: 50px;
+  padding-left: 0px;
+  background-color: #e1e770;
+  border: 1px solid #e1e770;
+  border-radius: 10px;
+  padding: 40px 125px;
+  font-family: "indie";
+  font-size: 30px;
+  font-weight: bold;
+  min-width: 320px;
+  display: flex;
+}
+.botao2:hover {
+  background-color: #a9eaff;
+  opacity: 0.8;
+}
      /* Footer Styles */
   
   footer {
