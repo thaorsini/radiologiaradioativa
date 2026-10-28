@@ -196,12 +196,12 @@
   background-color: #a9eaff;
   opacity: 0.8;
 }
-.botao2 {
+.botao3 {
   align-self: left;
   margin: 50px;
   padding-left: 0px;
-  background-color: #e1e770;
-  border: 1px solid #e1e770;
+  background-color: #ffc0cb;
+  border: 1px solid #ffc0cb;
   border-radius: 10px;
   padding: 40px 125px;
   font-family: "indie";
@@ -210,8 +210,8 @@
   min-width: 320px;
   display: flex;
 }
-.botao2:hover {
-  background-color: #a9eaff;
+.botao3:hover {
+  background-color: #f17ea1;
   opacity: 0.8;
 }
      /* Footer Styles */
